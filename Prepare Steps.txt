@@ -1,0 +1,7 @@
+
+#pip install --upgrade torch numpy matplotlib
+
+conda create -n new_env python=3.11
+conda activate new_env
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install numpy matplotlib
