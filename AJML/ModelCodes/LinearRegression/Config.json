@@ -1,0 +1,10 @@
+{
+    "input_dim": 10,
+    "hidden_layers": [
+        [64, "ReLU"],
+        [32, "ReLU"],
+        [16, "Sigmoid"]
+    ],
+    "output_dim": 1,
+    "embedding_dim": 5
+}
